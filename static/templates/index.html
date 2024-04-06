@@ -1,0 +1,415 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+
+<head>
+  <meta charset="utf-8">
+  <title>HEALTH CONNECT</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/index.css">
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+<nav class="navbar" style="height: 80px">
+    <div class="navbar-left">
+      <a href="index.html"class="logo"><img src="img/logo.jpg" style="width: 40px;padding-right: 10px"></a>
+      <div class="search-box" style="margin-left: 30px">
+        <img src="img/search.png" >
+        <input type="text"placeholder="search">
+
+      </div>
+    </div>
+    <div class="navbar-center">
+  <ul>
+    <li style="margin-top: 20px"><a href="#" class="active-link"><img src="img/home.jpg" style="width: 30px"><span>Home</span></a></li>
+
+
+    <li style="margin-top: 10px"><a href="#"><img src="img/net.png" style="width: 30px"><span>My network</span></a></li>
+
+    <li style="margin-top: 10px"><a href="#"><img src="img/mess.png" style="width: 30px"><span>Messaging</span></a></li>
+
+    <li style="margin-top: 10px"><a href="#"><img src="img/not.png" style="width: 30px"><span>Notifications</span></a></li>
+
+    <li style="margin-top: 10px"><a href="#"><img src="img/jobs.png" style="width: 30px"><span>jobs</span></a></li>
+  </ul>
+      </div>
+    <div class="navbar-right"></div>
+  <div class="online">
+     <img src="img/user1.jpg" class="nav-profile-img" onclick="toggleMenu()">
+  </div>
+  <div class="profile-menu-wrap"id="profileMenu">
+  <div class="profile-menu">
+    <div class="user-info">
+      <img src="img/user1.jpg">
+      <div>
+        <h3>peter pan</h3>
+        <a href="profile.html">see your profile</a>
+      </div>
+    </div>
+    <hr>
+    <a href="#"class="profile-menu-link">
+      <img src="img/feedback.png" style="width: 25px">
+      <p>Give feedback</p>
+      <span>>></span>
+    </a>
+    <a href="#"class="profile-menu-link">
+      <img src="img/setting.png" style="width: 25px">
+      <p>settings and privacy</p>
+      <span>>></span>
+    </a>
+    <a href="#"class="profile-menu-link">
+      <img src="img/help.png" style="width: 25px">
+      <p>Help and support</p>
+      <span>>></span>
+    </a>
+    <a href="#"class="profile-menu-link">
+      <img src="img/display.png" style="width: 25px">
+      <p>Display and accessibility</p>
+      <span>>></span>
+    </a>
+    <a href="#"class="profile-menu-link">
+      <img src="img/logout.png" style="width: 25px">
+      <p>Log Out</p>
+      <span>>></span>
+    </a>
+  </div>
+  </div>
+</nav>
+
+<div class="container">
+  <div style="position: sticky;top: 73px">
+  <div class="left-sidebar" style="position: sticky;top: 73px">
+  <div class="sidebar-profile-box" style="width: 300px">
+    <img src="img/cover-pic.png" width="100%">
+    <div class="sidebar-profile-info">
+      <img src="img/user1.jpg">
+      <h1>Perpetual Soniah</h1>
+      <h3>Web developer at microsoft</h3>
+      <ul>
+        <li>Your profile views <span>52</span></li>
+        <li>Your post views <span>552</span></li>
+        <li>Your connections <span>152</span></li>
+      </ul>
+    </div>
+    <div class="sidebar-profile-link">
+      <a href="#"><img src="img/items.png" >My items</a>
+      <a href="#"><img src="img/premium.png" >Try premium</a>
+    </div>
+    </div>
+    <div class="sidebar-activity" id="sidebaractivity" style="position: sticky;top: 73px">
+    <h3 style="">Recent</h3>
+    <a href="#"><img src="img/recent.png" style="width: 20px;margin-left: 10px" >Web development</a>
+    <a href="#"><img src="img/recent.png" style="width: 20px;margin-left: 10px">user interface</a>
+    <a href="#"><img src="img/recent.png" style="width: 20px;margin-left: 10px">Online learning</a>
+    <a href="#"><img src="img/recent.png" style="width: 20px;margin-left: 10px">learn online</a>
+    <a href="#"><img src="img/recent.png" style="width: 20px;margin-left: 10px">code better</a>
+    <a href="#"><img src="img/recent.png" style="width: 20px;margin-left: 10px">group learning</a>
+    <h3>GROUPS</h3>
+    <a href="#"><img src="img/group.png" style="width: 10px;margin-left: 10px">Web design group</a>
+    <a href="#"><img src="img/group.png" style="width: 10px;margin-left: 10px">Html&Css learners</a>
+    <a href="#"><img src="img/group.png" style="width: 10px;margin-left: 10px">python learners</a>
+    <a href="#"><img src="img/group.png" style="width: 10px;margin-left: 10px">Learn coding online</a>
+    <h3>HASHTAG</h3>
+    <a href="#"><img src="img/hashtag.png" style="width: 20px;margin-left: 10px">web development</a>
+    <a href="#"><img src="img/hashtag.png" style="width: 20px;margin-left: 10px">user interface</a>
+    <a href="#"><img src="img/hashtag.png" style="width: 20px;margin-left: 10px">online learning</a>
+<div class="discover-mire-links">
+  <a href="#">Discover more</a>
+  </div>
+  </div>
+    <p id="showMorelink" onclick="toggleActivity()">show more <b>+</b></p>
+    </div>
+    </div>
+  <div class="main-content" style="margin-right:-400px">
+    <div class="create-post"style= "height: 134px;width: 375px;margin-left: 420px;margin-top:-1150px">
+    <div class="create-post-input">
+      <img src="img/user1.jpg">
+      <textarea  rows="2" placeholder="write a post"></textarea>
+    </div>
+      <div class="create-post-links">
+        <li><img src="img/photo.jpg" style="width: 30px">photo</li>
+        <li><img src="img/video.png" style="width: 30px">video</li>
+        <li><img src="img/event.jpg" style="width: 30px">event</li>
+        <li>Post</li>
+      </div>
+      </div>
+    <div class="sort-by">
+      <hr>
+      <p>Sort by: <span>top <img src="img/down-arrow.png" ></span> </p>
+
+    </div>
+    <div class="post" style="width: 400px;margin-left: 400px">
+        <div class="post-auther">
+          <img src="img/user1.jpg" style="width: 50px">
+          <div>
+            <h1>Mwihaki Njogu</h1>
+            <small>founder of smile child organization</small>
+            <small>2 hours ago</small>
+          </div>
+        </div>
+      <p>loren immamm</p>
+      <img src="img/user-2.jpg"style="width:100%">
+      <div class="post-stats">
+        <img src="img/thumbsup.png" style="width: 30px" >
+        <img src="img/lovee.png"style="width: 30px" >
+        <img src="img/clap.png" style="width: 30px">
+        <span class="liked-user">Mike and 70 others</span>
+      </div>
+      <div>
+        <span>22 coments &middot; 40 shares</span>
+      </div>
+
+    <div class="post-activity" style="margin-right: 900px">
+      <div>
+        <img src="img/user1.jpg" style="width: 30px" class="post-activity-user-icon">
+        <img src="img/down-arrow.png"  class="post-activity-arrow-icon">
+      </div>
+      <div class="post-activity-link">
+        <img src="img/lovee.png" style="width: 30px;margin-left: 10px" >
+        <span>Like</span>
+      </div>
+      <div class="post-activity-link">
+        <img src="img/comment.png" style="width: 20px;margin-left: 10px">
+        <span>comment</span>
+      </div>
+      <div class="post-activity-link">
+        <img src="img/share.png" style="width: 20px;margin-left: 10px" >
+        <span>share</span>
+      </div>
+      <div class="post-activity-link">
+        <img src="img/send.png" style="width: 20px;margin-left: 10px">
+        <span>send</span>
+      </div>
+    </div>
+    </div>
+    <div class="post" style="width: 400px;margin-left: 400px">
+        <div class="post-auther">
+          <img src="img/user1.jpg" style="width: 50px">
+          <div>
+            <h1>minti mweaura</h1>
+            <small>Director safaricom</small>
+            <small>2 hours ago</small>
+          </div>
+        </div>
+      <p>loren immamm</p>
+      <img src="img/user-2.jpg"style="width:100%">
+      <div class="post-stats">
+        <img src="img/thumbsup.png" style="width: 30px" >
+        <img src="img/lovee.png"style="width: 30px" >
+        <img src="img/clap.png" style="width: 30px">
+        <span class="liked-user">Mike and 70 others</span>
+      </div>
+      <div>
+        <span>22 coments &middot; 40 shares</span>
+      </div>
+    <div class="post-activity" style="margin-right: 900px">
+      <div>
+        <img src="img/user1.jpg" style="width: 30px" class="post-activity-user-icon">
+        <img src="img/down-arrow.png"  class="post-activity-arrow-icon">
+      </div>
+      <div class="post-activity-link">
+        <img src="img/lovee.png" style="width: 30px;margin-left: 10px" >
+        <span>Like</span>
+      </div>
+      <div class="post-activity-link">
+        <img src="img/comment.png" style="width: 20px;margin-left: 10px">
+        <span>comment</span>
+      </div>
+      <div class="post-activity-link">
+        <img src="img/share.png" style="width: 20px;margin-left: 10px" >
+        <span>share</span>
+      </div>
+      <div class="post-activity-link">
+        <img src="img/send.png" style="width: 20px;margin-left: 10px">
+        <span>send</span>
+      </div>
+    </div>
+    </div>
+     <div class="post" style="width: 400px;margin-left: 400px">
+        <div class="post-auther">
+          <img src="img/user1.jpg" style="width: 50px">
+          <div>
+            <h1>minti mweaura</h1>
+            <small>Director safaricom</small>
+            <small>2 hours ago</small>
+          </div>
+        </div>
+      <p>loren immamm</p>
+      <img src="img/user-2.jpg"style="width:100%">
+      <div class="post-stats">
+        <img src="img/thumbsup.png" style="width: 30px" >
+        <img src="img/lovee.png"style="width: 30px" >
+        <img src="img/clap.png" style="width: 30px">
+        <span class="liked-user">Mike and 70 others</span>
+      </div>
+      <div>
+        <span>22 coments &middot; 40 shares</span>
+      </div>
+    <div class="post-activity" style="margin-right: 900px">
+      <div>
+        <img src="img/user1.jpg" style="width: 30px" class="post-activity-user-icon">
+        <img src="img/down-arrow.png"  class="post-activity-arrow-icon">
+      </div>
+      <div class="post-activity-link">
+        <img src="img/lovee.png" style="width: 30px;margin-left: 10px" >
+        <span>Like</span>
+      </div>
+      <div class="post-activity-link">
+        <img src="img/comment.png" style="width: 20px;margin-left: 10px">
+        <span>comment</span>
+      </div>
+      <div class="post-activity-link">
+        <img src="img/share.png" style="width: 20px;margin-left: 10px" >
+        <span>share</span>
+      </div>
+      <div class="post-activity-link">
+        <img src="img/send.png" style="width: 20px;margin-left: 10px">
+        <span>send</span>
+      </div>
+    </div>
+    </div>
+     <div class="post" style="width: 400px;margin-left: 400px">
+        <div class="post-auther">
+          <img src="img/user1.jpg" style="width: 50px">
+          <div>
+            <h1>minti mweaura</h1>
+            <small>Director safaricom</small>
+            <small>2 hours ago</small>
+          </div>
+        </div>
+      <p>loren immamm</p>
+      <img src="img/user-2.jpg"style="width:100%">
+      <div class="post-stats">
+        <img src="img/thumbsup.png" style="width: 30px" >
+        <img src="img/lovee.png"style="width: 30px" >
+        <img src="img/clap.png" style="width: 30px">
+        <span class="liked-user">Mike and 70 others</span>
+      </div>
+      <div>
+        <span>22 coments &middot; 40 shares</span>
+      </div>
+    <div class="post-activity" style="margin-right: 900px">
+      <div>
+        <img src="img/user1.jpg" style="width: 30px" class="post-activity-user-icon">
+        <img src="img/down-arrow.png"  class="post-activity-arrow-icon">
+      </div>
+      <div class="post-activity-link">
+        <img src="img/lovee.png" style="width: 30px;margin-left: 10px" >
+        <span>Like</span>
+      </div>
+      <div class="post-activity-link">
+        <img src="img/comment.png" style="width: 20px;margin-left: 10px">
+        <span>comment</span>
+      </div>
+      <div class="post-activity-link">
+        <img src="img/share.png" style="width: 20px;margin-left: 10px" >
+        <span>share</span>
+      </div>
+      <div class="post-activity-link">
+        <img src="img/send.png" style="width: 20px;margin-left: 10px">
+        <span>send</span>
+      </div>
+    </div>
+    </div>
+  </div>
+
+<div style=";position: sticky;top: 37px">
+  <div class="right-sidebar" style="margin-left: -60px">
+    <div class="sidebar-news" style="width: 300px;height: 400px;margin-top: -2350px">
+      <img src="img/more.png"  style="width: 20px"class="info-icon">
+      <h1>Trending news</h1>
+      <a href="#">High demand for skilled manpower</a>
+      <span>1 dat ago &middot;10998 readers</span>
+
+       <a href="#">careers growing</a>
+      <span>1 dat ago &middot;10998 readers</span>
+
+       <a href="#">less work visa</a>
+      <span>1 dat ago &middot;199998 readers</span>
+
+       <a href="#">more hiring</a>
+      <span>1 dat ago &middot;12998 readers</span>
+
+       <a href="#">richest man</a>
+      <span>1 dat ago &middot;45998 readers</span>
+
+      <a href="#"class="read-more-link">Read more</a>
+    </div>
+   <div class="sidebar-ad"style="position: sticky;top: 37px" >
+      <small>Ad &middot;&middot;&middot;</small>
+      <p>Master the 5  principles of webdesign</p>
+      <div>
+        <img src="img/user1.jpg"style=";position: sticky;top: 37px" >
+        <img src="img/mi-logo.jpg"style=";position: sticky;top: 37px" >
+      </div>
+      <b>brand and dem in xiaomi</b>
+      <a href="#"class="ad-link">Learn more</a>
+    </div>
+
+    <div class="sidebar-useful-links" style="margin-left: 890px">
+      <a href="#">About</a>
+      <a href="#">Accessibility</a>
+      <a href="#">Help center</a>
+      <a href="#">Privacy policy</a>
+      <a href="#">Advertising</a>
+      <a href="#">Get the app</a>
+      <a href="#">More</a>
+<div class="copyright-msg">
+  <img src="img/logo.jpg" >
+  <p>Health connect @ 2023 all rights reserved</p>
+</div>
+    </div>
+  </div>
+  </div>
+   </div>
+
+  <!-- Add your site or application content here -->
+
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+  <script>
+    let profileMenu=document.getElementById("profileMenu");
+    function toggleMenu(){
+      profileMenu.classList.toggle("open-menu");
+    }
+  </script>
+<script>
+  let sidebaractivity=document.getElementById("sidebaractivity");
+  let morelink=document.getElementById("showMorelink");
+  function toggleActivity(){
+    sidebaractivity.classList.toggle("open-activity");
+
+    if (sidebaractivity.classList.contains("open-activity")){
+      morelink.innerHTML= "Show less <b>-</b>";
+    }
+    else {
+       morelink.innerHTML= "Show less <b>+</b>";
+    }
+  }
+</script>
+</body>
+
+</html>

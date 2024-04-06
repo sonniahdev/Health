@@ -1,0 +1,132 @@
+.container {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    animation: slideIn 1s ease-in-out;
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+/* Add a background color gradient animation */
+.container {
+  background: linear-gradient(to right, #00f, #f0f);
+  background-size: 200% 100%;
+  animation: gradientAnimation 5s linear infinite;
+}
+
+/* Add a CSS animation keyframe */
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+/* Add animated transitions for the input fields */
+input[type="text"],
+input[type="password"] {
+  transition: border-color 0.3s ease-in-out;
+}
+
+/* Add hover effect for the input fields */
+input[type="text"]:hover,
+input[type="password"]:hover {
+  border-color: #f0f;
+}
+
+/* Add animation for the login button */
+button[type="submit"] {
+  animation: pulseAnimation 1s infinite;
+}
+
+/* Add CSS animation keyframe for the login button */
+@keyframes pulseAnimation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.container {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+

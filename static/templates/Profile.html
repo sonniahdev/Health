@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title STYLE="accent-color: aqua">HEALTH CONNECT</title>
+  <link rel="stylesheet" href="css/index.css">
+
+
+</head>
+<body>
+
+<nav class="navbar" style="height: 80px">
+    <div class="navbar-left">
+      <a href="index.html"class="logo"><img src="img/logo.jpg" style="width: 40px;padding-right: 10px"></a>
+      <div class="search-box" style="margin-left: 30px">
+        <img src="img/search.png" >
+        <input type="text"placeholder="search">
+
+      </div>
+    </div>
+    <div class="navbar-center">
+  <ul>
+    <li style="margin-top: 20px"><a href="#" class="active-link"><img src="img/home.jpg" style="width: 30px"><span>Home</span></a></li>
+
+
+    <li style="margin-top: 10px"><a href="#"><img src="img/net.png" style="width: 30px"><span>My network</span></a></li>
+
+    <li style="margin-top: 10px"><a href="#"><img src="img/mess.png" style="width: 30px"><span>Messaging</span></a></li>
+
+    <li style="margin-top: 10px"><a href="#"><img src="img/not.png" style="width: 30px"><span>Notifications</span></a></li>
+
+    <li style="margin-top: 10px"><a href="#"><img src="img/jobs.png" style="width: 30px"><span>jobs</span></a></li>
+  </ul>
+      </div>
+    <div class="navbar-right"></div>
+  <div class="online">
+     <img src="img/user1.jpg" class="nav-profile-img" onclick="toggleMenu()">
+  </div>
+  <div class="profile-menu-wrap"id="profileMenu">
+  <div class="profile-menu">
+    <div class="user-info">
+      <img src="img/user1.jpg">
+      <div>
+        <h3>peter pan</h3>
+        <a href="profile.html">see your profile</a>
+      </div>
+    </div>
+    <hr>
+    <a href="#"class="profile-menu-link">
+      <img src="img/feedback.png" style="width: 25px">
+      <p>Give feedback</p>
+      <span>>></span>
+    </a>
+    <a href="#"class="profile-menu-link">
+      <img src="img/setting.png" style="width: 25px">
+      <p>settings and privacy</p>
+      <span>>></span>
+    </a>
+    <a href="#"class="profile-menu-link">
+      <img src="img/help.png" style="width: 25px">
+      <p>Help and support</p>
+      <span>>></span>
+    </a>
+    <a href="#"class="profile-menu-link">
+      <img src="img/display.png" style="width: 25px">
+      <p>Display and accessibility</p>
+      <span>>></span>
+    </a>
+    <a href="#"class="profile-menu-link">
+      <img src="img/logout.png" style="width: 25px">
+      <p>Log Out</p>
+      <span>>></span>
+    </a>
+  </div>
+  </div>
+</nav>
+<div class="container">
+  <div class="profile-main">
+    <div class="profile-container">
+      <img src="img/cover-pic.png" style="width: 730px;height: 530px"  >
+      <div class="profile-container-inner">
+        <img src="img/user1.jpg"class="profile-pic" style="width: 30px" >
+        <h1>Mary</h1>
+        <b>Doctor in st.Francis hospital</b>
+        <p>Meru county,Kenya &middot; <a href="#"> <br>Contact info</a></p>
+        <div class="mutual-connections">
+          <img src="img/user-2.jpg" style="width: 70px" >
+          <span>1 mutual connection: Martin Lutha</span>
+        </div>
+        <div class="profile-btn">
+          <a href="#" class="primery-btn"><img src="img/connect.png" style="width: 20px">Connect</a>
+          <a href="#"><img src="img/chat.png" style="width: 20px">message</a>
+        </div>
+      </div>
+    </div>
+    <div class="profile-description">
+      <h2>About</h2>
+      <p>Meet Sarah, a passionate individual who has dedicated her life to promoting health and wellness.
+        Sarah's journey began when she witnessed the transformative power of healthy lifestyle choices in her own life.</p>
+      <a href="#" class="see-more-link">See more...</a>
+    </div>
+    <div class="profile-description">
+      <h2>Experience</h2>
+      <div class="profile-desc-row">
+        <img src="img/microsoft.png" style="width: 90px">
+        <div>
+          <h3>Junior back-end developer</h3>
+          <b>microsoft &middot; part-time</b>
+          <b>June 2020 - present &middot; 3.6 years</b>
+          <p>Programming is the art of instructing computers to perform specific tasks using a set of predefined
+            instructions and logic. It empowers individuals to create innovative software solutions that solve
+            real-world problems. Through programming, complex ideas can be translated into executable code, allowing
+            for the development of various applications, </p>
+          <hr>
+        </div>
+      </div>
+      <div class="profile-desc-row">
+        <img src="img/google.Png" style="width: 90px">
+        <div>
+          <h3>junior front-end developer</h3>
+          <b>Google &middot; part-time</b>
+          <b>Jan 2018 - may 2020 &middot; 3.6 years</b>
+          <p>Programming is the art of instructing computers to perform specific tasks using a set of predefined
+            instructions and logic. It empowers individuals to create innovative software solutions that solve
+            real-world problems. Through programming, complex ideas can be translated into executable code, allowing
+            for the development of various applications, </p>
+          <hr>
+        </div>
+      </div>
+      <div class="profile-desc-row">
+        <img src="img/amazon.png" style="width: 90px">
+        <div>
+          <h3>Cloud practitioner</h3>
+          <b>Amazon &middot; part-time</b>
+          <b>Jan 2014 - Dec 2017 &middot; 3.6 years</b>
+          <p>Programming is the art of instructing computers to perform specific tasks using a set of predefined
+            instructions and logic. It empowers individuals to create innovative software solutions that solve
+            real-world problems. Through programming, complex ideas can be translated into executable code, allowing
+            for the development of various applications, </p>
+
+        </div>
+      </div>
+      <hr>
+      <a href="#" class="experience-link">show all 5 experiences <img src="img/rightarrow.png" style="width: 30px"></a>
+    </div>
+    <div class="profile-description">
+      <h2>Education</h2>
+<div class="profile-desc-row">
+  <img src="img/harvard.png" style="width: 70px">
+  <div>
+    <h3>Harvard University</h3>
+    <b>cloud computing</b>
+    <b>2015-2018</b>
+    <hr>
+  </div>
+</div>
+<div class="profile-desc-row">
+  <img src="img/kenyata.png" style="width: 70px">
+  <div>
+    <h3>Kenyatta University</h3>
+    <b>computer science and software engineering</b>
+    <b>2010-2015</b>
+  </div>
+</div>
+    </div>
+    <div class="profile-description">
+      <h2>skills</h2>
+      <a href="#" class="skill-btn">Leadership</a>
+      <a href="#" class="skill-btn">HTML</a>
+      <a href="#" class="skill-btn">CSS</a>
+      <a href="#" class="skill-btn">JAVA</a>
+      <a href="#" class="skill-btn">Android</a>
+    </div>
+    <div class="profile-description">
+      <h2>Languages</h2>
+      <a href="#" class="language-btn">Kiswahili</a>
+      <a href="#" class="language-btn">German</a>
+      <a href="#" class="language-btn">English</a>
+
+    </div>
+  </div>
+
+  <div class="profile-sidebar">
+     <div class="sidebar-ad"style="position: sticky;top:73px;margin-top: -2350px;width: 400px;margin-left: 810px" >
+      <small>Ad &middot;&middot;&middot;</small>
+      <p>Master the 5  principles of webdesign</p>
+      <div>
+        <img src="img/user1.jpg"style=";position: sticky;top: 37px" >
+        <img src="img/mi-logo.jpg"style=";position: sticky;top: 37px" >
+      </div>
+      <b>brand and dem in xiaomi</b>
+      <a href="#"class="ad-link">Learn more</a>
+    </div>
+    <div class="sidebar-people" style="margin-left: 810px">
+      <h3>people you may know</h3>
+      <div class="sidebar-people-row">
+        <img src="img/user1.jpg" style="width: 30px" >
+        <div>
+          <h2>MIlly mwenda</h2>
+          <p>director of google</p>
+          <a href="#">connect</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="profile-footer">
+  <div class="sidebar-useful-links" style="margin-right: 890px">
+      <a href="#">About</a>
+      <a href="#">Accessibility</a>
+      <a href="#">Help center</a>
+      <a href="#">Privacy policy</a>
+      <a href="#">Advertising</a>
+      <a href="#">Get the app</a>
+      <a href="#">More</a>
+<div class="copyright-msg">
+  <img src="img/logo.jpg" >
+  <p>Health connect @ 2023 all rights reserved</p>
+</div>
+    </div>
+
+</div>
+<script>
+    let profileMenu=document.getElementById("profileMenu");
+    function toggleMenu(){
+      profileMenu.classList.toggle("open-menu");
+    }
+
+  </script>
+</body>
+</html>
